@@ -4,7 +4,6 @@
     padding: 0;
     font-family: Arial, Arial, Helvetica, sans-serif, sans-serif;
     background-color: bisque;
-    background: cover;
 }
 
 body {
@@ -111,4 +110,13 @@ a:hover {
     display: grid;
     grid-template-columns: 1fr;
     }
-} 
+}
+
+@media screen and (max-width: 500px)
+{
+    .navbar {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    
+}
