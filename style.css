@@ -89,7 +89,6 @@ p {
     margin-bottom: 30px;
     
 }
-
 img {
     align-content: center;
     width: 100%;
@@ -97,9 +96,19 @@ img {
     padding: 10px;
 }
 
+a:hover {
+    background-color: white;
+    color: black;
+    border-color: black;
+    border-width: 2px;
+    border-style: solid;
+}
 
 
-@media screen (max-width 600px)
-body {
-    displa
+@media screen and (max-width: 600px)
+{ 
+.cards{
+    display: grid;
+    grid-template-columns: 1fr;
+    }
 } 
