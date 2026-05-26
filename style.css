@@ -16,10 +16,14 @@ h1{
     text-align: center;
     margin-bottom: 30px;
     font-size: 50px;
+    color: white;
+    font-family: monospace  
 }
 
 h2{
     font-size: 30px;
+    margin-top: 15px;
+    text-align: center;
 
 }
 
@@ -27,22 +31,50 @@ h2{
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr;
+    gap: 10px;
+    margin-bottom: 15px ;
+    list-style: solid gray;
 }
-    
+
+.card1 {
+    border: solid gray 3px;
+}
+
+.card2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 10px;
+    margin-bottom: 10px ;
+    list-style: solid gray;
+}
 
 a {
     text-align: center;
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    border-radius: 5px;
+    border-color: black;
+    background-color: black;
+    
 }
 
+
+
 .navbar {
+    gap: 10px;
+    margin-bottom: 20px;
     display: grid;
     grid-template-columns: repeat(5, 1fr)
+
 }
 
 footer {
     display: grid;
     grid-template-columns: 1fr;
     text-align: center;
+
 }
 
 ul {
@@ -52,10 +84,16 @@ ul {
 p {
     font-size: 15px;
     text-align: justify;
+    text-align: left;
+    margin-bottom: 30px;
+    
 }
 
 img {
-    width: 400px;
+    align-content: center;
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
 }
 
 @media screen { 
