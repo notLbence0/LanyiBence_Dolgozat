@@ -33,7 +33,6 @@ h2{
     grid-template-rows: 1fr;
     gap: 10px;
     margin-bottom: 15px ;
-    list-style: solid gray;
 }
 
 .card1 {
@@ -41,12 +40,7 @@ h2{
 }
 
 .card2 {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr;
-    gap: 10px;
-    margin-bottom: 10px ;
-    list-style: solid gray;
+    border: solid gray 3px;
 }
 
 a {
@@ -60,9 +54,9 @@ a {
     
 }
 
-
-
 .navbar {
+    font-weight: bold;
+    font-size: 20px;
     gap: 10px;
     margin-bottom: 20px;
     display: grid;
@@ -77,8 +71,15 @@ footer {
 
 }
 
+.elerhetoseg {
+    gap: 5px;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+}
+
 ul {
     text-align: center;
+    margin: 20px;
 }
 
 p {
@@ -96,6 +97,9 @@ img {
     padding: 10px;
 }
 
-@media screen { 
-    
-}
+
+
+@media screen (max-width 600px)
+body {
+    displa
+} 
